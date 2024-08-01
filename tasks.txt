@@ -1,0 +1,10 @@
+THESE ARE THE TASKS ->
+
+1. Take the JSON data given
+2. Create a UI to select a country
+3. After selecting a country, the countries capital can be displayed
+
+If you have time do this ->
+
+4. Choosing a new country should replace the old capital with the new capital of the new country
+5. Call an API to generate images of the country that has been selected

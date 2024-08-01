@@ -1,0 +1,102 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+}
+
+body {
+    background: #555;
+    width: 80%;
+    margin: 150px auto;
+}
+
+.countries-container {
+    /* border: 2px solid red; */
+    border-radius: 44px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+h1 {
+    margin: 60px 0 10px 0;
+    font-size: 3.5rem;
+    text-align: center;
+}
+h3 {
+    margin: 20px 0 30px 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 80px;
+    margin-bottom: 50px;
+}
+.search-bar input.countryInput {
+    background-color: #555;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    height: 100%;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #fff;
+    padding: 10px 20px;
+}
+.search-bar input.countryInput::placeholder {
+    color: #fff;
+}
+.search-bar button.searchButton {
+    background: #555;
+    margin-left: 40px;
+    height: 100%;
+    width: 70px;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+.search-bar button.searchButton:hover {
+    background: #fff;
+    color: #555;
+    border: 2px solid #555;
+    cursor: pointer;
+}
+.countryInfo {
+    height: 100%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 80%;
+}
+/* Add these styles or adjust if already present */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.country-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+
+
+
